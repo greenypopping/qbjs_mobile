@@ -414,11 +414,12 @@ dialog pre { font-family: dosvga; }
 }
 .toolbar-button {
     display: inline-block;
-    background-size: 1.25em 1.25em;
-    width: 1.25em;
-    height: 1.25em;
+    background-size: 1.8em 1.8em;
+    width: 1.8em;
+    height: 1.8em;
     background-repeat: no-repeat;
-    margin: 0 !important;
+    margin: 0 3px 3px 0 !important;
+    vertical-align: middle;
 }
 .toolbar-button:before { content: ""; }
 .toolbar-button:after { content: ""; }
