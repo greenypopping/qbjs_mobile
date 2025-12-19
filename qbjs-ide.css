@@ -405,11 +405,12 @@ dialog pre { font-family: dosvga; }
 
 #toolbar {
     border: 1px solid #666;
-    padding: 3px 5px 0px;
+    padding: 8px 10px 5px;
     position: absolute;
     left: 5px;
     top: 5px;
     right: 5px;
+    height: 45px;
 }
 .toolbar-button {
     display: inline-block;
