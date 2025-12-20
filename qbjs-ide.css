@@ -24,7 +24,7 @@ a:after { content: " >"; }
 #code-container {
     position: absolute;
     left: 5px;
-    top: 33px;
+    top: 55px;
 }
 #code, .code {
     margin-bottom: 5px;
@@ -43,7 +43,7 @@ a:after { content: " >"; }
 #game-container {
     position: absolute;
     left: 620px;
-    top: 33px;
+    top: 55px;
 }
 #gx-container {
     border: 1px solid #666;
@@ -97,7 +97,7 @@ a:after { content: " >"; }
 }
 #slider {
     position: absolute;
-    top: 33px;
+    top: 55px;
     color: #666;
     cursor: col-resize;
     width: 8px;
