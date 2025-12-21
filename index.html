@@ -5,12 +5,15 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="manifest" href="manifest.json"></link>
+        <!--css files start here-->
         <link rel="stylesheet" href="qbjs-ide.css"></link>
         <link rel="stylesheet" href="codemirror/codemirror.min.css"></link>
         <link rel="stylesheet" href="codemirror/dialog.css">
         <link rel="stylesheet" href="codemirror/matchesonscrollbar.css">
         <link id="ide-theme" rel="stylesheet" href="codemirror/themes/qbjs.css"></link>
+        <!--css files end here-->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
+        <!--javascript files start here-->
 
         <script type="text/javascript" src="codemirror/codemirror.min.js"></script>
         <script type="text/javascript" src="codemirror/qb-lang.js"></script>
@@ -40,6 +43,7 @@
         <script type="text/javascript" src="codemirror/vim.js"></script>
 
         <script type="text/javascript" src="util/showdown.min.js"></script>
+        <!--javascript files end here-->
     </head>
     <body style="display:none">
         <div id="toolbar">
@@ -193,7 +197,7 @@
 
         <dialog id="about-dialog">
             <div>
-                <img id="logo" src="logo.png" onclick="window.open('https://github.com/boxgaming/qbjs/wiki', '_blank')">
+                <img id="logo" src="logo.png" alt="QBJS" onclick="window.open('https://github.com/boxgaming/qbjs/wiki', '_blank')">
                 <p>QBJS_mobile - QBasic for Mobile Devices!</p>
                 <p>Version: <a href="https://github.com/boxgaming/qbjs/releases" target="_blank">0.10.2</a></p>
                 <p></p>
