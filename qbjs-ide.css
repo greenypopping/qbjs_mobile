@@ -414,9 +414,9 @@ dialog pre { font-family: dosvga; }
 }
 .toolbar-button {
     display: inline-block;
-    background-size: 1.8em 1.8em;
-    width: 1.8em;
-    height: 1.8em;
+    background-size: 1.6em 1.6em;
+    width: 1.6em;
+    height: 1.6em;
     background-repeat: no-repeat;
     margin: 0 3px 3px 0 !important;
     vertical-align: middle;
@@ -424,9 +424,9 @@ dialog pre { font-family: dosvga; }
 .toolbar-button:before { content: ""; }
 .toolbar-button:after { content: ""; }
 
-#toolbar-button-new { background-image: url('img/new-project.svg'); background-size: 1.8em, 1.8em; background-position: .06em .05em; }
+#toolbar-button-new { background-image: url('img/new-project.svg'); background-size: 1.6em, 1.6em; background-position: .06em .05em; }
 #toolbar-button-open { background-image: url('img/open.svg'); }
-#toolbar-button-save { background-image: url('img/save.svg');  background-size: 1.8em, 1.8em; background-position: .05em .05em; }
+#toolbar-button-save { background-image: url('img/save.svg');  background-size: 1.6em, 1.6em; background-position: .05em .05em; }
 #toolbar-button-run { background-image: url('img/run.svg'); }
 #toolbar-button-stop { background-image: url('img/stop.svg'); }
 #toolbar-button-share { background-image: url('img/share.svg'); }
